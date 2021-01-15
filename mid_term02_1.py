@@ -64,7 +64,7 @@ while n <= 3:                                                   # 3번 반복
 
     print("{}번 문제".format(n), q)                               # 문제 표시
     
-    x = input("타이핑하세요>> ")                                    # 타이핑 입력
+    x = input("Type Here>> ")                                    # 타이핑 입력
 
     if str(q).strip() == str(x).strip():                        # (공백 제거한) 입력 확인
         pygame.mixer.Sound.play(correct_sound)                  # 정답 사운드 재생
